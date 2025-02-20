@@ -37,7 +37,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "sandeli-aipan-netdi-52"
+          project: "sandeli-aipan-netdi-98"
           entrypoint: "server/index.ts"
           root: ".output"
           
